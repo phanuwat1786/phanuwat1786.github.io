@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin and Gold</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- chart contianer -->
+    <div>
+
+        <!-- Header -->
+        <div class="p-6 border-b border-gray-100 flex justify-between items-center">
+            <div>
+                <h2 class="text-xl font-bold text-gray-900">Bitcoin and  Gold price comparison</h2>
+                <p class="text-sm text-gray-500">graph description.</p>
+            </div>
+            <!-- button -->
+             <div class="flex space-x-2">
+                <button class="px-3 py-1 text-xs font-semibold bg-blue-400 rounded-lg text-blue-50 hover:bg-blue-300">1D</button>
+                <button class="px-3 py-1 text-xs font-semibold bg-gray-100 rounded-lg text-gray-500 hover:bg-blue-50">5D</button>
+                <button class="px-3 py-1 text-xs font-semibold bg-gray-100 rounded-lg text-gray-500 hover:bg-blue-50">1W</button>
+                <button class="px-3 py-1 text-xs font-semibold bg-gray-100 rounded-lg text-gray-500 hover:bg-blue-50">ALL TIME</button>
+             </div>
+        </div>
+    
+        <!-- canvas wrapper(graph display) -->
+        <div>
+            <canvas id="myLineChart"></canvas>
+        </div>
+    
+    </div>
+</body>
+</html>
